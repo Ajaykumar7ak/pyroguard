@@ -1,0 +1,10 @@
+{
+  "sensor_baud_rate": 115200,
+  "sensor_com_port": "COM4",
+  "sensor_connection_mode": "python_collector",
+  "camera_ip": "10.249.67.41",
+  "camera_stream_url": "http://10.249.67.41:81/stream",
+  "camera_stream_mode": "proxy",
+  "dht_high_temp_threshold": 50.0,
+  "flame_alert_enabled": true
+}

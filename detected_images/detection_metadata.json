@@ -1,0 +1,28 @@
+{
+  "sample_name": "Helmet Compliance Detection",
+  "status": "COMPLIANT",
+  "category": "helmet",
+  "confidence": 0.707,
+  "detection_details": {
+    "model": "helmet_iam_tsr.pt (YOLOv8n Universal Helmet)",
+    "class_detected": "With Helmet",
+    "worker_status": "PPE COMPLIANT",
+    "helmet_bbox": [
+      240,
+      51,
+      404,
+      244
+    ],
+    "worker_bbox": [
+      148,
+      57,
+      424,
+      316
+    ]
+  },
+  "files": [
+    "helmet_compliant_annotated.jpg",
+    "helmet_compliant_raw.jpg",
+    "helmet_close_up_crop.jpg"
+  ]
+}
